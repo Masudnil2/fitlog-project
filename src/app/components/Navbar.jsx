@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { usePlan } from "@/context/PlanProvider";
+import { usePlan } from "./context/PlanProvider";
 
 const links = [
   { href: "/", label: "Workout" },
